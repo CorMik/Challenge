@@ -1,0 +1,68 @@
+html, body {
+    background:#e4e4e4;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+
+
+.position-ref {
+    position: relative;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.flex-container {
+    display:flex;
+    text-align:left;
+    flex-wrap: wrap;
+    width:75%;
+    position: relative;
+    margin-left: 15%
+}
+
+.offer{
+    margin:2px;
+    width: 30%;
+    padding:10px;
+    background:white;
+}
+@media only screen and (max-width: 1145px) {
+    .offer{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .offer{
+        width: 100%;
+    }
+}
+
+.offer:hover{
+    background:#e2dddd;
+}
+
+.image{
+    float:left;
+    clear:both;
+    padding-right:5px;
+    height: 100%;
+}
+
+.sort-container{
+    margin:10px;
+}
