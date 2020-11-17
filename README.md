@@ -83,3 +83,6 @@ I also created the Offers import with the idea of it being a cron job that will 
 ## Thank you!
 
 I look forward to hearing your feed back
+
+## Docker didnt work?
+if docker didn't work there is laravel instruction to run the application locally in src/README.md
